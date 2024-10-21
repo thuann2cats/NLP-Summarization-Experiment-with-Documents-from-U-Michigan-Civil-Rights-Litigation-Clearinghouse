@@ -10,7 +10,7 @@ import json
 
 # Set environment variables for LangChain API key and tracing
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "your-langchain-api"
 
 N_WORDS_PER_CHUNK = 50000
 CHUNK_STRIDE = 45000
